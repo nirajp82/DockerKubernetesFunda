@@ -24,6 +24,11 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nginx", "nginx", "{7C27A441-5AF8-4587-B032-8E2066F57563}"
 	ProjectSection(SolutionItems) = preProject
+		nginx\Cert_Read.Me.txt = nginx\Cert_Read.Me.txt
+		nginx\my-x-dns-local.conf = nginx\my-x-dns-local.conf
+		nginx\my-x-dns-local.crt = nginx\my-x-dns-local.crt
+		nginx\my-x-dns-local.key = nginx\my-x-dns-local.key
+		nginx\my-x-dns-local.pfx = nginx\my-x-dns-local.pfx
 		nginx\nginx.Dockerfile = nginx\nginx.Dockerfile
 		nginx\nginx.local.conf = nginx\nginx.local.conf
 	EndProjectSection

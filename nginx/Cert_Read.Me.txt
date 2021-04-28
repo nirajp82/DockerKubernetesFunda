@@ -1,0 +1,5 @@
+--Use openssl to create cer and key files
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout my-x-dns-local.key -out my-x-dns-local.crt -config my-x-dns-local.conf -passin pass:YourStrongPassword
+
+--Export a pfx 
+sudo openssl pkcs12 -export -out my-x-dns-local.pfx -inkey my-x-dns-local.key -in my-x-dns-local.crt 
