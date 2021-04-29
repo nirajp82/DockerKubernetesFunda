@@ -16,6 +16,6 @@ services:
       context: .
       dockerfile: Globomantics.IdentityServer/Dockerfile
     environment:
-      - ASPNETCORE_URLS=http://*:5001
+      - ASPNETCORE_URLS=http://*:5000
     ports:
-      - "5000:5001"
+      - "5000:5000"
